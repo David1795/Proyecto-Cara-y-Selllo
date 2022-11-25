@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    background-image: url(../img/fondo.webp);
+    font-family: 'Noto Sans', sans-serif;
+}
+.bitcoin{
+    height: 600px;
+    width: 600px;
+}
+.coin{
+    
+    height: 500px;
+    width: 500px;
+}
+.m{
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+    border-color: yellow;
+    color: yellow;
+    background-color: black;
+
+}
+.bitcoin,
+    .coin,
+        .m{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 10rem;
+        }
+
+
+
+
+label{
+    float: right;
+}
+div.cara{
+    width: 30%;
+    height: 40vh;
+    background-image: url(../img/cara1.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+}
+div.sello{
+    width: 30%;
+    height: 40vh;
+    background-image: url(../img/sello1.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;    
+}.contenido{
+    margin-top: 2%;
+    width: 80%;
+    height: 65vh;
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 2%;
+    background-color: rgb(61, 66, 66, 0.9);
+}.texto{
+    width: 100%;
+    height: 10%;
+    display: flex;
+    color: white;
+    justify-content: center;
+}.elecciones{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}.textoC{
+    
+    display: flex;
+    color: white;
+    margin-left: 10%;
+   
+}.textoS{
+    
+    display: flex;
+    color: white;
+    margin-left: 68% ;
+}
+center{
+    margin: 10%;
+    color: white;
+}
+
